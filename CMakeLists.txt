@@ -3,4 +3,16 @@ project(projectEDD)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(projectEDD main.cpp)
+add_executable(projectEDD main.cpp
+        Inventario/Lote.cpp
+        Inventario/Lote.h
+        Inventario/Producto.cpp
+        Inventario/Producto.h
+        Inventario/MateriaPrima.cpp
+        Inventario/MateriaPrima.h
+        Usuario.cpp
+        Usuario.h
+        Estructuras/ListaEnlazada.h
+        Estructuras/Cola.h
+        Transporte/Pedidos.cpp
+        Transporte/Pedidos.h)
