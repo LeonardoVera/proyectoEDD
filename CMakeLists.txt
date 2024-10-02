@@ -19,4 +19,6 @@ add_executable(projectEDD main.cpp
         Estructuras/Nodo.h
         Utils/Gotoxy.h
         Menus/MainMenu.cpp
-        Menus/MainMenu.h)
+        Menus/MainMenu.h
+        Inventario/Inventario.cpp
+        Inventario/Inventario.h)
