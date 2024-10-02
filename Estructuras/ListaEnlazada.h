@@ -2,6 +2,7 @@
 #define PROJECTEDD_LISTAENLAZADA_H
 
 #include "Nodo.h"
+#include "../Inventario/MateriaPrima.h"
 
 using namespace std;
 
@@ -53,6 +54,14 @@ public:
         return this->first->dato;
     }
 
+    Nodo<T> *getFirstNode() {
+        return this->first;
+    }
+
+    Nodo<T> *getLastNode() {
+        return this->last;
+    }
+
     T getLast() {
         if (this->length == 0) {
             throw std::out_of_range("La lista se encuentra vacia");
@@ -71,6 +80,10 @@ public:
             actual = actual->siguiente;
         }
         std::cout << std::endl;
+    }
+
+    Nodo<T> *getNext(Nodo<T> *nodo) {
+        return nodo->siguiente;
     }
 };
 

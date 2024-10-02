@@ -21,7 +21,7 @@ private:
     string fecha_vencimiento;
 
 public:
-    MateriaPrima(double precio, int id, int cantidad, string nombre, string proveedor);
+    MateriaPrima(double precio, int id, string nombre, string proveedor);
 
     void mostrarInfo();
     double calcularCostoTotal();
@@ -29,6 +29,8 @@ public:
     void setNombre(string nombre);
     void setId(int id);
     void setPrecio(double precio);
+    int getCantidad();
+    int getId();
     bool verificarDisponibilidad(int cantidadNecesaria);
 
     static MateriaPrima agregarMateriaPrima();
