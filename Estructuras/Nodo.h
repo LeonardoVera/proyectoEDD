@@ -1,7 +1,3 @@
-//
-// Created by leona on 29/09/2024.
-//
-
 #ifndef PROJECTEDD_NODO_H
 #define PROJECTEDD_NODO_H
 

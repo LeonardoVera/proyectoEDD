@@ -1,7 +1,3 @@
-//
-// Created by leona on 28/09/2024.
-//
-
 #ifndef PROJECTEDD_LOTE_H
 #define PROJECTEDD_LOTE_H
 
@@ -10,6 +6,7 @@
 
 using namespace std;
 
+// Estados posibles de un lote
 const string ESTADOS[] = {"Sin clasificar", "Recepcionado", "Maceracion", "Fermentacion",
                           "Clarificacion", "Crianza", "Embotellado", "Transporte", "Descartado"};
 

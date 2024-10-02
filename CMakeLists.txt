@@ -15,4 +15,8 @@ add_executable(projectEDD main.cpp
         Estructuras/ListaEnlazada.h
         Estructuras/Cola.h
         Transporte/Pedidos.cpp
-        Transporte/Pedidos.h)
+        Transporte/Pedidos.h
+        Estructuras/Nodo.h
+        Utils/Gotoxy.h
+        Menus/MainMenu.cpp
+        Menus/MainMenu.h)
