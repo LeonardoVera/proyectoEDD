@@ -3,12 +3,14 @@
 #undef byte
 #include <windows.h>
 #include <string>
+#include "MenuInventario.h"
 using namespace std;
 
 class MainMenu {
 public:
     // Destructor
     ~MainMenu();
+    MenuInventario menuInventario;
 
     // Función para mostrar el menú principal
     void mostrarMenu();

@@ -1,5 +1,3 @@
-// Created by leona on 01/10/2024.
-//
   // Para la función gotoxy
 #include "MainMenu.h"
 #include <iostream>
@@ -77,7 +75,7 @@ void MainMenu::mostrarMenu() {
 
         switch (opcion) {
             case 1:
-                mostrarMensaje("Gestionar Inventario - Función en desarrollo");
+                menuInventario.iniciarMenu();
                 break;
             case 2:
                 mostrarMensaje("Gestionar Recursos Humanos - Función en desarrollo");

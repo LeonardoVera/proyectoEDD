@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-MateriaPrima::MateriaPrima(double precio, int id, string nombre, string proveedor) {
+MateriaPrima::MateriaPrima(double precio, int id,int cantidad, string nombre, string proveedor) {
     precio_unitario = precio;
     id_materia = id;
     this->cantidad = cantidad;
@@ -58,7 +58,7 @@ MateriaPrima MateriaPrima::agregarMateriaPrima() {
     getline(cin, nombre);
     cout << "Ingrese el proveedor: ";
     getline(cin, proveedor);
-    MateriaPrima nuevaMateriaPrima(precio, id, nombre, proveedor);
+    MateriaPrima nuevaMateriaPrima(precio, id,cantidad, nombre, proveedor);
     return nuevaMateriaPrima;
 }
 
