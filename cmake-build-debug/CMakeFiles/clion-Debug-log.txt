@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\deivi\CLionProjects\proyectoEDD -B C:\Users\deivi\CLionProjects\proyectoEDD\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Renato\Desktop\VERA -B C:\Users\Renato\Desktop\VERA\cmake-build-debug
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done (3.6s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/deivi/CLionProjects/proyectoEDD/cmake-build-debug
+-- Build files have been written to: C:/Users/Renato/Desktop/VERA/cmake-build-debug
