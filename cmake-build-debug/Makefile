@@ -248,6 +248,30 @@ Menus/MainMenu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.s
 .PHONY : Menus/MainMenu.cpp.s
 
+Menus/MenuInventario.obj: Menus/MenuInventario.cpp.obj
+.PHONY : Menus/MenuInventario.obj
+
+# target to build an object file
+Menus/MenuInventario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Menus/MenuInventario.cpp.obj
+.PHONY : Menus/MenuInventario.cpp.obj
+
+Menus/MenuInventario.i: Menus/MenuInventario.cpp.i
+.PHONY : Menus/MenuInventario.i
+
+# target to preprocess a source file
+Menus/MenuInventario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Menus/MenuInventario.cpp.i
+.PHONY : Menus/MenuInventario.cpp.i
+
+Menus/MenuInventario.s: Menus/MenuInventario.cpp.s
+.PHONY : Menus/MenuInventario.s
+
+# target to generate assembly for a file
+Menus/MenuInventario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Menus/MenuInventario.cpp.s
+.PHONY : Menus/MenuInventario.cpp.s
+
 Transporte/Pedidos.obj: Transporte/Pedidos.cpp.obj
 .PHONY : Transporte/Pedidos.obj
 
@@ -344,6 +368,9 @@ help:
 	@echo ... Menus/MainMenu.obj
 	@echo ... Menus/MainMenu.i
 	@echo ... Menus/MainMenu.s
+	@echo ... Menus/MenuInventario.obj
+	@echo ... Menus/MenuInventario.i
+	@echo ... Menus/MenuInventario.s
 	@echo ... Transporte/Pedidos.obj
 	@echo ... Transporte/Pedidos.i
 	@echo ... Transporte/Pedidos.s

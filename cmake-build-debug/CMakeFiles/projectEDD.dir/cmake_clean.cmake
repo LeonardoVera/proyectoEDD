@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/projectEDD.dir/Inventario/Producto.cpp.obj.d"
   "CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj"
   "CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj.d"
+  "CMakeFiles/projectEDD.dir/Menus/MenuInventario.cpp.obj"
+  "CMakeFiles/projectEDD.dir/Menus/MenuInventario.cpp.obj.d"
   "CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj"
   "CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj.d"
   "CMakeFiles/projectEDD.dir/Usuario.cpp.obj"

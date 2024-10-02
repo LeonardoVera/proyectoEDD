@@ -43,6 +43,7 @@ void Inventario::mostrarInventarioMateriaPrima() {
         print(55, 1, "Cantidad");
         print(75, 1, "Precio Unitario");
         print(95, 1, "Proveedor");
+        print(15,2,"--------------------------------------------------");
         if (counter%2 == 0) {
             color(1);
         }
