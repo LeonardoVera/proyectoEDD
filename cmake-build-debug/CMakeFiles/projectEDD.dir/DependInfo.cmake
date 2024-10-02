@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ADMIN/CLionProjects/proyectoEDD/Inventario/Inventario.cpp" "CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj" "gcc" "CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj.d"
   "C:/Users/ADMIN/CLionProjects/proyectoEDD/Inventario/Lote.cpp" "CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj" "gcc" "CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj.d"
   "C:/Users/ADMIN/CLionProjects/proyectoEDD/Inventario/MateriaPrima.cpp" "CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.obj" "gcc" "CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.obj.d"
   "C:/Users/ADMIN/CLionProjects/proyectoEDD/Inventario/Producto.cpp" "CMakeFiles/projectEDD.dir/Inventario/Producto.cpp.obj" "gcc" "CMakeFiles/projectEDD.dir/Inventario/Producto.cpp.obj.d"

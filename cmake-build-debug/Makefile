@@ -128,6 +128,30 @@ projectEDD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/build
 .PHONY : projectEDD/fast
 
+Inventario/Inventario.obj: Inventario/Inventario.cpp.obj
+.PHONY : Inventario/Inventario.obj
+
+# target to build an object file
+Inventario/Inventario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj
+.PHONY : Inventario/Inventario.cpp.obj
+
+Inventario/Inventario.i: Inventario/Inventario.cpp.i
+.PHONY : Inventario/Inventario.i
+
+# target to preprocess a source file
+Inventario/Inventario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.i
+.PHONY : Inventario/Inventario.cpp.i
+
+Inventario/Inventario.s: Inventario/Inventario.cpp.s
+.PHONY : Inventario/Inventario.s
+
+# target to generate assembly for a file
+Inventario/Inventario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectEDD.dir\build.make CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.s
+.PHONY : Inventario/Inventario.cpp.s
+
 Inventario/Lote.obj: Inventario/Lote.cpp.obj
 .PHONY : Inventario/Lote.obj
 
@@ -305,6 +329,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... projectEDD
+	@echo ... Inventario/Inventario.obj
+	@echo ... Inventario/Inventario.i
+	@echo ... Inventario/Inventario.s
 	@echo ... Inventario/Lote.obj
 	@echo ... Inventario/Lote.i
 	@echo ... Inventario/Lote.s

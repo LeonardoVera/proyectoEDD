@@ -124,10 +124,24 @@ CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ADMIN\CLionProjects\proyectoEDD\Inventario\MateriaPrima.cpp -o CMakeFiles\projectEDD.dir\Inventario\MateriaPrima.cpp.s
 
+CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: CMakeFiles/projectEDD.dir/flags.make
+CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: C:/Users/ADMIN/CLionProjects/proyectoEDD/Usuario/Usuario.cpp
+CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: CMakeFiles/projectEDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj -MF CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.obj.d -o CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.obj -c C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp
+
+CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp > CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.i
+
+CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp -o CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.s
+
 CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj: CMakeFiles/projectEDD.dir/flags.make
 CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj: C:/Users/ADMIN/CLionProjects/proyectoEDD/Transporte/Pedidos.cpp
 CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj: CMakeFiles/projectEDD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj -MF CMakeFiles\projectEDD.dir\Transporte\Pedidos.cpp.obj.d -o CMakeFiles\projectEDD.dir\Transporte\Pedidos.cpp.obj -c C:\Users\ADMIN\CLionProjects\proyectoEDD\Transporte\Pedidos.cpp
 
 CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.s: cmake_force
 CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj: CMakeFiles/projectEDD.dir/flags.make
 CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj: C:/Users/ADMIN/CLionProjects/proyectoEDD/Menus/MainMenu.cpp
 CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj: CMakeFiles/projectEDD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj -MF CMakeFiles\projectEDD.dir\Menus\MainMenu.cpp.obj.d -o CMakeFiles\projectEDD.dir\Menus\MainMenu.cpp.obj -c C:\Users\ADMIN\CLionProjects\proyectoEDD\Menus\MainMenu.cpp
 
 CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.i: cmake_force
@@ -152,19 +166,19 @@ CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ADMIN\CLionProjects\proyectoEDD\Menus\MainMenu.cpp -o CMakeFiles\projectEDD.dir\Menus\MainMenu.cpp.s
 
-CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: CMakeFiles/projectEDD.dir/flags.make
-CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: C:/Users/ADMIN/CLionProjects/proyectoEDD/Usuario/Usuario.cpp
-CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj: CMakeFiles/projectEDD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj -MF CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.obj.d -o CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.obj -c C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp
+CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj: CMakeFiles/projectEDD.dir/flags.make
+CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj: C:/Users/ADMIN/CLionProjects/proyectoEDD/Inventario/Inventario.cpp
+CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj: CMakeFiles/projectEDD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj -MF CMakeFiles\projectEDD.dir\Inventario\Inventario.cpp.obj.d -o CMakeFiles\projectEDD.dir\Inventario\Inventario.cpp.obj -c C:\Users\ADMIN\CLionProjects\proyectoEDD\Inventario\Inventario.cpp
 
-CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp > CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.i
+CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ADMIN\CLionProjects\proyectoEDD\Inventario\Inventario.cpp > CMakeFiles\projectEDD.dir\Inventario\Inventario.cpp.i
 
-CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ADMIN\CLionProjects\proyectoEDD\Usuario\Usuario.cpp -o CMakeFiles\projectEDD.dir\Usuario\Usuario.cpp.s
+CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ADMIN\CLionProjects\proyectoEDD\Inventario\Inventario.cpp -o CMakeFiles\projectEDD.dir\Inventario\Inventario.cpp.s
 
 # Object files for target projectEDD
 projectEDD_OBJECTS = \
@@ -172,9 +186,10 @@ projectEDD_OBJECTS = \
 "CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj" \
 "CMakeFiles/projectEDD.dir/Inventario/Producto.cpp.obj" \
 "CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.obj" \
+"CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj" \
 "CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj" \
 "CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj" \
-"CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj"
+"CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj"
 
 # External object files for target projectEDD
 projectEDD_EXTERNAL_OBJECTS =
@@ -183,14 +198,15 @@ projectEDD.exe: CMakeFiles/projectEDD.dir/main.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/Inventario/Producto.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.obj
+projectEDD.exe: CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/Transporte/Pedidos.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/Menus/MainMenu.cpp.obj
-projectEDD.exe: CMakeFiles/projectEDD.dir/Usuario/Usuario.cpp.obj
+projectEDD.exe: CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj
 projectEDD.exe: CMakeFiles/projectEDD.dir/build.make
 projectEDD.exe: CMakeFiles/projectEDD.dir/linkLibs.rsp
 projectEDD.exe: CMakeFiles/projectEDD.dir/objects1.rsp
 projectEDD.exe: CMakeFiles/projectEDD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable projectEDD.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ADMIN\CLionProjects\proyectoEDD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable projectEDD.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projectEDD.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

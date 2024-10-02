@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj"
+  "CMakeFiles/projectEDD.dir/Inventario/Inventario.cpp.obj.d"
   "CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj"
   "CMakeFiles/projectEDD.dir/Inventario/Lote.cpp.obj.d"
   "CMakeFiles/projectEDD.dir/Inventario/MateriaPrima.cpp.obj"
