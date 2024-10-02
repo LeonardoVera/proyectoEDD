@@ -39,15 +39,19 @@ void Inventario::mostrarInventarioMateriaPrima() {
     for (int i = 0; i < materias_primas.getLength(); i++) {
         // Mostramos la informacion de cada materia prima
         print(15, 1, "ID");
+        print(26,1,"|");
         print(35, 1, "Nombre");
+        print(48,1,"|");
         print(55, 1, "Cantidad");
+        print(69,1,"|");
         print(75, 1, "Precio Unitario");
+        print(92,1,"|");
         print(95, 1, "Proveedor");
-        print(15,2,"--------------------------------------------------");
+        print(15,2,"-----------------------------------------------------------------------------------------");
         if (counter%2 == 0) {
             color(1);
         }
-        aux->dato.mostrarInfo(15,2+i);
+        aux->dato.mostrarInfo(15,3+i);
         aux = aux->siguiente;
         color(7);
         counter++;
