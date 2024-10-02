@@ -1,12 +1,31 @@
-#ifndef PROJECTEDD_MAINMENU_H
-#define PROJECTEDD_MAINMENU_H
-
-#include "../Utils/Gotoxy.h"
+#ifndef MAINMENU_H
+#define MAINMENU_H
+#undef byte
+#include <windows.h>
+#include <string>
+#include "MenuInventario.h"
+using namespace std;
 
 class MainMenu {
 public:
-    void mostrarMenu();
+    // Destructor
     ~MainMenu();
+    MenuInventario menuInventario;
+
+    // Función para mostrar el menú principal
+    void mostrarMenu();
+
+private:
+    // Función para mover el cursor a una posición específica
+    void gotoxy(int x, int y);
+
+    // Función para dibujar los bordes decorativos del menú
+    void dibujarBordes();
+
+    // Función para mostrar mensajes temporales
+    void mostrarMensaje(const string &mensaje);
+
+    void limpiarPantalla();
 };
 
-#endif //PROJECTEDD_MAINMENU_H
+#endif // MAINMENU_H

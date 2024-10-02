@@ -21,4 +21,6 @@ add_executable(projectEDD main.cpp
         Menus/MainMenu.cpp
         Menus/MainMenu.h
         Inventario/Inventario.cpp
-        Inventario/Inventario.h)
+        Inventario/Inventario.h
+        Menus/MenuInventario.cpp
+        Menus/MenuInventario.h)
