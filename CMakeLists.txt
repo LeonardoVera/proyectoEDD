@@ -10,8 +10,8 @@ add_executable(projectEDD main.cpp
         Inventario/Producto.h
         Inventario/MateriaPrima.cpp
         Inventario/MateriaPrima.h
-        Usuario.cpp
-        Usuario.h
+        Usuario/Usuario.cpp
+        Usuario/Usuario.h
         Estructuras/ListaEnlazada.h
         Estructuras/Cola.h
         Transporte/Pedidos.cpp
