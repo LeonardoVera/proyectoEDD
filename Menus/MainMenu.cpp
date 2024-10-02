@@ -59,9 +59,9 @@ void MainMenu::mostrarMenu() {
         gotoxy(32, 9);
         cout << "2. Gestionar Recursos Humanos";
         gotoxy(32, 11);
-        cout << "3. Planificación de Producción";
+        cout << "3. Planificacion de Produccion";
         gotoxy(32, 13);
-        cout << "4. Autenticación de Usuarios";
+        cout << "4. Autenticacion de Usuarios";
         gotoxy(32, 15);
         cout << "5. Seguimiento de Procesos";
         gotoxy(32, 17);
@@ -69,8 +69,9 @@ void MainMenu::mostrarMenu() {
 
         // Instrucciones
         gotoxy(26, 20);
-        cout << "Seleccione una opción (1-6): ";
-        gotoxy(28, 20);
+        cout << "Seleccione una opcion (1-6): ";
+        gotoxy(26, 21);
+        cout << "-> ";
         cin >> opcion;
 
         switch (opcion) {
