@@ -11,7 +11,7 @@ private:
     ListaEnlazada<Producto> productos;
 public:
     void agregarMateriaPrima();
-    void mostrarInventario();
+    void mostrarInventarioMateriaPrima();
     bool verificarExistenciaMateriaPrima(int id);
 };
 

@@ -14,7 +14,7 @@ inline void gotoxy(short x, short y) {
     SetConsoleCursorPosition(hCon, dwPos);
 }
 
-inline void print(short x, short y, const char *text) {
+inline void print(short x, short y,std::string text) {
     gotoxy(x, y);
     std::cout << text;
 }
