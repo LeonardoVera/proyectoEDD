@@ -10,14 +10,7 @@ struct Nodo {
     Nodo<T> *siguiente;
     Nodo<T> *anterior;
 
-    Nodo(T dato) {
-        this->dato = dato;
-        this->siguiente = nullptr;
-        this->anterior = nullptr;
-    }
+    Nodo(const T &dato) : dato(dato), siguiente(nullptr), anterior(nullptr) {}
 };
-
-template <typename T>
-using pNodo = Nodo<T> *;
 
 #endif //PROJECTEDD_NODO_H
