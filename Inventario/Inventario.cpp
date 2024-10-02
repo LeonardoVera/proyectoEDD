@@ -18,14 +18,22 @@ bool Inventario::verificarExistenciaMateriaPrima(int id) {
     return false;
 }
 
-void Inventario::mostrarInventario() {
+void Inventario::mostrarInventarioMateriaPrima() {
+    system("cls");
     // Recorremos la lista de materias primas
+    Nodo<MateriaPrima> *aux;
+    aux = materias_primas.getFirstNode();
     for (int i = 0; i < materias_primas.getLength(); i++) {
         // Mostramos la informacion de cada materia prima
-        Nodo<MateriaPrima> *aux = materias_primas.getFirstNode();
-        aux->dato.mostrarInfo();
+        print(15, 1, "ID");
+        print(35, 1, "Nombre");
+        print(55, 1, "Cantidad");
+        print(75, 1, "Precio Unitario");
+        print(95, 1, "Proveedor");
+        aux->dato.mostrarInfo(15,2+i);
         aux = aux->siguiente;
     }
+    cout << endl << endl;
     // Recorremos la lista de productos
     //for (int i = 0; i < productos.getLength(); i++) {
     //    // Mostramos la informacion de cada producto

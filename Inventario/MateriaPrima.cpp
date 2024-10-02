@@ -1,7 +1,3 @@
-//
-// Created by leona on 28/09/2024.
-//
-
 #include "MateriaPrima.h"
 #include <iostream>
 #include <string>
@@ -10,17 +6,17 @@ using namespace std;
 MateriaPrima::MateriaPrima(double precio, int id, string nombre, string proveedor) {
     precio_unitario = precio;
     id_materia = id;
-    this->cantidad = 0;
+    this->cantidad = cantidad;
     this->nombre = nombre;
     this->proveedor = proveedor;
 }
 
-void MateriaPrima::mostrarInfo() {
-    cout << "ID: " << id_materia << endl;
-    cout << "Nombre: " << nombre << endl;
-    cout << "Cantidad: " << cantidad << endl;
-    cout << "Precio Unitario: " << precio_unitario << endl;
-    cout << "Proveedor: " << proveedor << endl;
+void MateriaPrima::mostrarInfo(short x, short y) {
+    print(x, y, to_string(id_materia));
+    print(x+20, y, nombre);
+    print(x+40, y, to_string(cantidad));
+    print(x+60, y, to_string(precio_unitario));
+    print(x+80, y, proveedor);
 }
 
 double MateriaPrima::calcularCostoTotal() {
@@ -57,10 +53,11 @@ MateriaPrima MateriaPrima::agregarMateriaPrima() {
     cin >> id;
     cout << "Ingrese la cantidad: ";
     cin >> cantidad;
+    cin.ignore();
     cout << "Ingrese el nombre de la materia prima: ";
-    cin >> nombre;
+    getline(cin, nombre);
     cout << "Ingrese el proveedor: ";
-    cin >> proveedor;
+    getline(cin, proveedor);
     MateriaPrima nuevaMateriaPrima(precio, id, nombre, proveedor);
     return nuevaMateriaPrima;
 }

@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include "../Utils/Gotoxy.h"
 using namespace std;
 
 class MateriaPrima {
@@ -23,7 +24,7 @@ private:
 public:
     MateriaPrima(double precio, int id, string nombre, string proveedor);
 
-    void mostrarInfo();
+    void mostrarInfo(short, short);
     double calcularCostoTotal();
     void setCantidad(int cantidad);
     void setNombre(string nombre);
