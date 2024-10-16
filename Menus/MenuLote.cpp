@@ -91,6 +91,7 @@ void MenuLote::gestionarLotes() {
         system("cls");
         cout << "ID Lote\t\tTipo\t\tEstado" << endl;
         cout << lote.getId() << "\t\t" << lote.getTipo() << "\t\t" << lote.getEstado() << endl;
+        cout << endl;
         cout << "1. Cambiar estado de lote" << endl;
         cout << "2. Comprobar estado actual" << endl;
         cout << "3. Regresar" << endl;

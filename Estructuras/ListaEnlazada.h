@@ -106,7 +106,7 @@ public:
     }
     void removeFirst() {
         if (this->length == 0) {
-            throw std::out_of_range("La lista está vacía, imposible remover");
+            throw std::out_of_range("La lista esta vacia, imposible remover");
         }
 
         Nodo<T> *aBorrar = this->first;
@@ -115,7 +115,7 @@ public:
         if (this->first != nullptr) {
             this->first->anterior = nullptr;
         } else {
-            this->last = nullptr;  // Si eliminamos el último nodo, también actualizamos `last`
+            this->last = nullptr;  // Si eliminamos el ultimo nodo, tambien actualizamos `last`
         }
 
         delete aBorrar;

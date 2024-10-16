@@ -88,7 +88,7 @@ void MainMenu::mostrarMenu() {
                 mostrarMensaje("Autenticación de Usuarios - Función en desarrollo");
                 break;
             case 5:
-                mostrarMensaje("Seguimiento de Procesos - Función en desarrollo");
+                menuLote.iniciarMenu();
                 break;
             case 6:
                 mostrarMensaje("Saliendo del sistema...");
