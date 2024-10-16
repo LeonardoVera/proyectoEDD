@@ -66,3 +66,32 @@ void Inventario::mostrarInventarioMateriaPrima() {
     //    aux = aux->siguiente;
     //}
 }
+void Inventario::eliminarMateriaPrima(int id) {
+    system("cls");
+    Nodo<MateriaPrima>* anterior = nullptr;
+    Nodo<MateriaPrima>* actual = materias_primas.getFirstNode();
+
+    // Recorremos la lista para encontrar el producto con el ID
+    while (actual != nullptr) {
+        if (actual->dato.getId() == id) {
+            if (anterior == nullptr) {
+                // Si el elemento a eliminar es el primero
+                materias_primas.removeFirst();
+            } else {
+                // Si el elemento está en medio o al final
+                anterior->siguiente = actual->siguiente;
+                delete actual;
+            }
+            color(2); // Mostrar mensaje de éxito
+            mostrarMensaje("Materia prima eliminada exitosamente");
+            color(7);
+            return;
+        }
+        anterior = actual;
+        actual = actual->siguiente;
+    }
+    // Si no se encuentra la materia prima con ese ID
+    color(4); // Mostrar mensaje de error
+    mostrarMensaje("Materia prima no encontrada");
+    color(7);
+}

@@ -104,6 +104,25 @@ public:
     Nodo<T> *getNext(Nodo<T> *nodo) {
         return nodo->siguiente;
     }
+    void removeFirst() {
+        if (this->length == 0) {
+            throw std::out_of_range("La lista está vacía, imposible remover");
+        }
+
+        Nodo<T> *aBorrar = this->first;
+        this->first = this->first->siguiente;
+
+        if (this->first != nullptr) {
+            this->first->anterior = nullptr;
+        } else {
+            this->last = nullptr;  // Si eliminamos el último nodo, también actualizamos `last`
+        }
+
+        delete aBorrar;
+        this->length--;
+    }
+
+
 };
 
 

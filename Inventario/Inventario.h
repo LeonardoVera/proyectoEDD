@@ -13,6 +13,8 @@ public:
     void agregarMateriaPrima();
     void mostrarInventarioMateriaPrima();
     bool verificarExistenciaMateriaPrima(int id);
+    void eliminarMateriaPrima(int id);
+
 };
 
 #endif //PROJECTEDD_INVENTARIO_H
