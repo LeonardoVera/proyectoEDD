@@ -62,7 +62,7 @@ MateriaPrima MateriaPrima::agregarMateriaPrima() {
     return nuevaMateriaPrima;
 }
 
-MateriaPrima MateriaPrima::cambiarMateriaPrima(MateriaPrima materiaPrima) {
+/*MateriaPrima MateriaPrima::cambiarMateriaPrima(MateriaPrima materiaPrima) {
     double precio;
     int id, cantidad;
     string nombre;
@@ -111,7 +111,64 @@ MateriaPrima MateriaPrima::cambiarCantidad(MateriaPrima materiaPrima) {
     cin >> cantidad;
     materiaPrima.setCantidad(cantidad);
     return materiaPrima;
+}*/
+
+MateriaPrima MateriaPrima::cambiarMateriaPrima(MateriaPrima materiaPrimaModificada) {
+    int id;
+    cout << "Ingrese el ID de la materia prima a modificar: ";
+    cin >> id;
+
+    if (materiaPrimaModificada.getId() != id) {
+        cout << "Materia prima no encontrada." << endl;
+        return materiaPrimaModificada; // Retorna el objeto sin modificar
+    }
+
+    int opcion;
+    do {
+        cout << "Seleccione el atributo a modificar:\n1. ID\n2. Nombre\n3. Precio\n4. Cantidad\n5. Salir\n";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1: {
+                int nuevoId;
+                cout << "Ingrese el nuevo ID: ";
+                cin >> nuevoId;
+                materiaPrimaModificada.setId(nuevoId);
+                break;
+            }
+            case 2: {
+                string nuevoNombre;
+                cout << "Ingrese el nuevo nombre: ";
+                cin.ignore();
+                getline(cin, nuevoNombre);
+                materiaPrimaModificada.setNombre(nuevoNombre);
+                break;
+            }
+            case 3: {
+                double nuevoPrecio;
+                cout << "Ingrese el nuevo precio: ";
+                cin >> nuevoPrecio;
+                materiaPrimaModificada.setPrecio(nuevoPrecio);
+                break;
+            }
+            case 4: {
+                int nuevaCantidad;
+                cout << "Ingrese la nueva cantidad: ";
+                cin >> nuevaCantidad;
+                materiaPrimaModificada.setCantidad(nuevaCantidad);
+                break;
+            }
+            case 5:
+                cout << "Saliendo de la modificación." << endl;
+            break;
+            default:
+                cout << "Opción no válida. Intente de nuevo." << endl;
+        }
+    } while (opcion != 5);
+
+    return materiaPrimaModificada;
 }
+
 
 int MateriaPrima::getCantidad() {
     return cantidad;
