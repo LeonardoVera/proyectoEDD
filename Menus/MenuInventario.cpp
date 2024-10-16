@@ -4,16 +4,17 @@ MenuInventario::~MenuInventario() {
     cout << "Saliendo del menú de inventario" << endl;
     system("pause");
 }
-
 void MenuInventario::mostrarMenu() {
     gotoxy(32, 5);
     cout << "1. Agregar materia prima";
     gotoxy(32, 7);
     cout << "2. Mostrar inventario de materia prima";
     gotoxy(32, 9);
-    cout << "3. Regresar al menú principal";
+    cout << "3. Eliminar materia prima";
     gotoxy(32, 11);
-    cout << "Seleccione una opción (1-3): ";
+    cout << "4. Regresar al menú principal";
+    gotoxy(32, 13);
+    cout << "Seleccione una opción (1-4): ";
 }
 
 void MenuInventario::iniciarMenu() {
@@ -31,16 +32,23 @@ void MenuInventario::iniciarMenu() {
         switch (opcion) {
             case 1:
                 inventario.agregarMateriaPrima();
-                break;
+            break;
             case 2:
                 inventario.mostrarInventarioMateriaPrima();
-                break;
+            break;
             case 3:
+
+                int idEliminar;
+            cout << "Ingrese el ID de la materia prima a eliminar: ";
+            cin >> idEliminar;
+            inventario.eliminarMateriaPrima(idEliminar);
+            break;
+            case 4:
                 break;
             default:
-                cout << "Opcion Invalidad" << endl;
-                system("pause");
-                break;
+                cout << "Opcion invalida" << endl;
+            system("pause");
+            break;
         }
-    } while (opcion != 3);
+    } while (opcion != 4);
 }
