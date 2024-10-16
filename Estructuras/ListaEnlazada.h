@@ -20,7 +20,11 @@ public:
     }
 
     void add(T dato) {
-        Nodo<T> *nuevo = new Nodo<T>(dato);
+        Nodo<T> *nuevo = new (std::nothrow) Nodo<T>(dato);
+        if(!nuevo) {
+            cerr << "Error al reservar memoria" << endl;
+            return;
+        }
         if (this->length == 0) {
             this->first = nuevo;
             this->last = nuevo;
@@ -52,6 +56,21 @@ public:
             throw std::out_of_range("La lista se encuentra vacia");
         }
         return this->first->dato;
+    }
+
+    T getDato(Nodo<T> *nodo) {
+        return nodo->dato;
+    }
+
+    T get(int index) {
+        if (index < 0 || index >= this->length) {
+            throw std::out_of_range("Indice fuera de rango");
+        }
+        Nodo<T> *current = this->first;
+        for (int i = 0; i < index; i++) {
+            current = current->siguiente;
+        }
+        return current->dato;
     }
 
     Nodo<T> *getFirstNode() {

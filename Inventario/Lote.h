@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include "../Estructuras/Pila.h"
 
 using namespace std;
 
@@ -13,13 +14,21 @@ const string ESTADOS[] = {"Sin clasificar", "Recepcionado", "Maceracion", "Ferme
 class Lote {
 private:
     string id_;
+    string tipo_;
+    Pila<const char *> estados_; // FIXME: bad_alloc
+    int estadoActual_;
     string fechaProduccion_;
     string fechaVencimiento_;
-    string estado_;
 public:
     Lote();
-    string comprobarEstado();
-    void setId();
+    void setTipo(string tipo);
+    void setFechaProduccion(string fecha);
+    void setId(string id);
+    void siguienteEstado();
+    void retrocederEstado();
+    string getId();
+    string getTipo();
+    string getEstado();
 };
 
 
